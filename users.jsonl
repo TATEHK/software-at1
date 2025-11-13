@@ -1,0 +1,2 @@
+{"username": "tatehk", "password": {"salt": "7rNUVSWkxzW7UWkB8xvY/A==", "pw_hash": "QlZMkwn6Fz/vXP8qaOGaPPrH92NTvnsK/d9iNLodJic=", "kdf": "pbkdf2_sha256_200k"}, "role": "admin"}
+{"username": "tate.hk", "password": {"salt": "tm6qh3vVitRKr4SakSDEhw==", "pw_hash": "5OvzbPYkybS+q+FEj7PhKw5Dj6Gd1oFv+vjHLX202vY=", "kdf": "pbkdf2_sha256_200k"}, "role": "user"}
