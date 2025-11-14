@@ -1,4 +1,4 @@
-Overview
+**Overview**
 
 This project is a secure, role-based PII (Personally Identifiable Information) management system designed for educational purposes. It demonstrates:
 
@@ -20,7 +20,8 @@ Separation of duties and privilege boundaries
 
 The system runs entirely in a terminal and saves all user accounts, encrypted PII, and logs locally.
 
-Features
+**Features**
+
 🔐 Security Features
 
 PII encryption using password-derived keys (PBKDF2-HMAC-SHA256).
@@ -39,13 +40,14 @@ Audit logging of all security-relevant events.
 
 Roles control access throughout the system:
 
-Role	Permissions
-Admin	Full system access. Create accounts, manage roles, reset passwords, delete accounts + PII. Super-admin required to reset other admins.
-Manager	Create employees and PII users, edit/view all records, delete employee/user accounts.
-Employee	Create PII records, edit/view all records.
-User	End-user access to their own record only. View, edit, export, change password.
+**Role	Permissions**
 
-Additional rules:
+__Admin__	Full system access. Create accounts, manage roles, reset passwords, delete accounts + PII. Super-admin required to reset other admins.
+__Manager__	Create employees and PII users, edit/view all records, delete employee/user accounts.
+__Employee__	Create PII records, edit/view all records.
+__User__	End-user access to their own record only. View, edit, export, change password.
+
+**Additional rules:**
 
 First admin created automatically → flagged as super admin.
 
@@ -53,7 +55,7 @@ Only super admin may reset passwords for other admins.
 
 Cannot demote or delete the last admin.
 
-🗂 Account Lifecycle Features
+**🗂 Account Lifecycle Features**
 
 Staff account creation (admin/manager/employee).
 
@@ -65,7 +67,7 @@ Welcome files, role-update files, deletion reports, and password-reset files gen
 
 Users can update their own passwords.
 
-🧾 PII Features
+**🧾 PII Features**
 
 Create, edit, delete PII records.
 
