@@ -1,8 +1,0 @@
-[2025-11-13T11:23:12.202050Z] actor=SYSTEM action=create_initial_admin details=username=tate.hk
-[2025-11-13T11:23:59.160031Z] actor=tate.hk action=login_success details=role=admin
-[2025-11-13T11:28:05.001678Z] actor=tate.hk action=create_staff_account details=tate.mun -> manager
-[2025-11-13T11:29:21.867126Z] actor=tate.mun action=login_success details=role=manager
-[2025-11-13T11:32:46.155286Z] actor=tate.mun action=create_user_with_pii details=username=tate.yan
-[2025-11-13T11:32:46.944320Z] actor=tate.mun action=create_pii_record details=username=tate.yan
-[2025-11-13T11:34:34.047375Z] actor=tate.yan action=login_success details=role=user
-[2025-11-13T11:34:50.784882Z] actor=tate.yan action=export_my_data details=file=tate.yan_pii_export.txt
